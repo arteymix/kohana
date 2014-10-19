@@ -56,6 +56,13 @@ spl_autoload_register(array('Kohana', 'auto_load'));
  */
 ini_set('unserialize_callback_func', 'spl_autoload_call');
 
+/**
+ * Enable composer auto-loader.
+ *
+ * @link https://getcomposer.org/doc/01-basic-usage.md#autoloading
+ */
+require $vendor_path.'autoload.php';
+
 // -- Configuration and initialization -----------------------------------------
 
 /**
