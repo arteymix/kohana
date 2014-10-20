@@ -61,7 +61,7 @@ ini_set('unserialize_callback_func', 'spl_autoload_call');
  *
  * @link https://getcomposer.org/doc/01-basic-usage.md#autoloading
  */
-require $vendor_path.'autoload.php';
+//require $vendor_path.'autoload.php';
 
 // -- Configuration and initialization -----------------------------------------
 
